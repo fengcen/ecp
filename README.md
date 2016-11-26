@@ -10,6 +10,10 @@ easily build compiler plugins.
 ## Prerequisites
 ecp required latest **Nightly** Rust.
 
+## Why use "compiler plugin" instead of "Macros 1.1"?
+I need not only `custom derive`, but also more `compiler plugin` features.
+Currently "Macros 1.1" is also unstable.
+
 ## Usage
 Add dependencies to Cargo.toml
 
