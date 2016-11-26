@@ -1,11 +1,9 @@
 
 ecp
-======
-[![docs](https://docs.rs/ecp/badge.svg?version=0.1.0 "docs")](https://docs.rs/ecp)
-
+===
 easily build compiler plugins.
 
-## [Document](https://docs.rs/ecp)
+## [Document](http://fengcen.github.io/ecp)
 
 ## Prerequisites
 ecp required latest **Nightly** Rust.

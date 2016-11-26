@@ -6,7 +6,7 @@ keywords = ["easy", "compiler", "plugin"]
 authors = ["fengcen <fengcen.love@gmail.com>"]
 repository = "https://github.com/fengcen/ecp.git"
 homepage = "https://github.com/fengcen/ecp"
-documentation = "https://docs.rs/ecp"
+documentation = "http://fengcen.github.io/ecp"
 readme = "README.md"
 license = "MIT"
 
