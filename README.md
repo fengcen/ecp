@@ -3,7 +3,8 @@ ecp
 ===
 easily build compiler plugins.
 
-## [Document](http://fengcen.github.io/ecp)
+## Document
+Sorry, you need to build the document with `cargo doc`.
 
 ## Prerequisites
 ecp required latest **Nightly** Rust.
