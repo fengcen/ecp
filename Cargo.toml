@@ -1,7 +1,7 @@
 [package]
 name = "ecp"
 version = "0.1.0"
-description = "easily build a compiler plugin."
+description = "easily build compiler plugins."
 keywords = ["easy", "compiler", "plugin"]
 authors = ["fengcen <fengcen.love@gmail.com>"]
 repository = "https://github.com/fengcen/ecp.git"
