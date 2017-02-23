@@ -13,7 +13,11 @@ ecp required latest **Nightly** Rust.
 
 ## Why use "compiler plugin" instead of "Macros 1.1"?
 I need not only "custom derive", but also more "compiler plugin" features.
-Currently "Macros 1.1" is also unstable.
+~~Currently "Macros 1.1" is also unstable.~~
+
+"Macros 1.1" has been stabilize in Rust 1.15, so you should use it.
+
+I will consider adding support for [syn](https://crates.io/crates/syn).
 
 ## Usage
 Add dependencies to Cargo.toml
