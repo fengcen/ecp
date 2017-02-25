@@ -1,17 +1,23 @@
-
 ecp
 ===
+
 [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 
 easily build compiler plugins.
 
-## Document
+Document
+--------
+
 Sorry, you need to build the document with `cargo doc`.
 
-## Prerequisites
+Prerequisites
+-------------
+
 ecp required latest **Nightly** Rust.
 
-## Why use "compiler plugin" instead of "Macros 1.1"?
+Why use "compiler plugin" instead of "Macros 1.1"?
+--------------------------------------------------
+
 I need not only "custom derive", but also more "compiler plugin" features.
 ~~Currently "Macros 1.1" is also unstable.~~
 
@@ -19,7 +25,9 @@ I need not only "custom derive", but also more "compiler plugin" features.
 
 I will consider adding support for [syn](https://crates.io/crates/syn).
 
-## Usage
+Usage
+-----
+
 Add dependencies to Cargo.toml
 
 ```toml
@@ -35,11 +43,12 @@ extern crate syntax;
 extern crate ecp;
 ```
 
-## Examples
+Examples
+--------
 
 Create a simple macro which prints "Hello world!":
 
-```
+```rust
 #![feature(quote, plugin_registrar, rustc_private)]
 extern crate syntax;
 extern crate ecp;
@@ -55,6 +64,8 @@ pub fn test(cx: &mut ExtCtxt, _: Span, _: &[TokenTree]) -> Box<MacResult + 'stat
 }
 ```
 
-## License
+License
+-------
+
 ecp is primarily distributed under the terms of the MIT license.
 See [LICENSE](LICENSE) for details.
